@@ -191,3 +191,49 @@ footer nav ul li a {
     font-size: 16px;
     font-weight: 500;
 }
+
+
+
+
+/* matches section */
+
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+
+}
+
+.match {
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.img-blk {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-evenly;
+}
+
+.img-blk h2 {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.text-blk {
+    text-align: center;
+}
+
+.text-blk p {
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: .5em;
+}
