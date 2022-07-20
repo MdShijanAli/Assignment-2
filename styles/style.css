@@ -487,3 +487,40 @@ footer nav ul li a {
 
 
 }
+
+
+@media screen and (min-width:1025px) {
+
+    .upcoming-info {
+        width: 25%;
+    }
+
+    .blogs-info {
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog {
+        overflow: hidden;
+    }
+
+    .blog-img img {
+        width: 100%;
+
+    }
+
+    .blog-info a {
+        font-size: 30px;
+    }
+
+    .blog-info h3 {
+        font-size: 25px;
+    }
+
+    .blog-info span {
+        font-size: 25px;
+
+    }
+
+}
