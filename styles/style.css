@@ -52,16 +52,22 @@ body {
     background: #DD0000;
     border-radius: 5px;
     padding: 15px 25px;
-
+    transition-duration: 0.3s;
+    border: 2px solid #DD0000;
+    font-weight: 500;
+    font-size: 25px;
 
 }
 
-
+.fa-chevron-right {
+    margin-left: 10px;
+}
 
 
 .button:hover {
-    box-shadow: 1px 1px 10px red;
-    background-color: blue;
+    background-color: white;
+    color: #333;
+    border: 2px solid #DD0000;
 
 }
 
@@ -244,6 +250,34 @@ footer nav ul li a {
 }
 
 
+/* button area */
+.btn-area {
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.btn1 {
+    background-color: #DD0000;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: #DD0000;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+
+
 
 
 
@@ -331,6 +365,9 @@ footer nav ul li a {
 
     }
 
+    .button {
+        font-size: 15px;
+    }
 
 
 }
@@ -365,6 +402,10 @@ footer nav ul li a {
         background-color: #fff;
         padding: 0;
 
+    }
+
+    .button {
+        font-size: 18px;
     }
 
     .upcoming-info a {
@@ -412,6 +453,17 @@ footer nav ul li a {
         gap: 30px;
     } */
 
+    .hide {
+        display: none;
+    }
+
+    .btn2 {
+        display: none;
+    }
+
+    .btn1:focus-visible+.hide {
+        display: grid;
+    }
 
 
 
