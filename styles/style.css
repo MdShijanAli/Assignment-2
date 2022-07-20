@@ -261,15 +261,17 @@ footer nav ul li a {
 
 
 /* button area */
-.btn-area {
-    margin-top: 50px;
-    display: block;
-    justify-content: center;
-    text-align: center;
+.btn {
+    margin: auto;
+    display: none;
+    justify-content: space-evenly
 }
 
+.btn a {
+    text-decoration: none;
 
 
+}
 
 .btn1 {
     background-color: #DD0000;
@@ -278,13 +280,7 @@ footer nav ul li a {
     border-radius: 5px;
 }
 
-.btn2 {
-    background-color: #DD0000;
-    padding: 15px 40px;
-    color: #fff;
-    border-radius: 5px;
 
-}
 
 
 
@@ -436,8 +432,12 @@ footer nav ul li a {
         height: 40px; */
         padding: 10px 25px;
         border: 1px solid #ddd;
-        font-size: 20px;
+        font-size: 18px;
 
+    }
+
+    .hidden {
+        display: none;
     }
 
     .blogs-info,
@@ -453,15 +453,15 @@ footer nav ul li a {
     }
 
     .blog-info a {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .blog-info h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .blog-info span {
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
@@ -482,7 +482,11 @@ footer nav ul li a {
         gap: 30px;
     } */
 
+    .btn {
+        display: flex;
+        margin-top: 50px;
 
+    }
 
 
 
@@ -511,15 +515,15 @@ footer nav ul li a {
     }
 
     .blog-info a {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .blog-info h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .blog-info span {
-        font-size: 25px;
+        font-size: 22px;
 
     }
 
