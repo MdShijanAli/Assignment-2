@@ -168,6 +168,9 @@ body {
 
 /* footer section */
 
+footer .important-links {
+    text-align: center;
+}
 
 footer {
     background-color: #161616;
@@ -183,9 +186,16 @@ footer h2 {
 }
 
 footer nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    /* display: block;
+    margin: auto; */
+    /* justify-content: space-evenly; */
     margin-top: 50px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 5%;
+    ;
 }
 
 hr {
@@ -344,15 +354,25 @@ footer nav ul li a {
 
     }
 
-    footer nav ul {
+    /* footer nav ul {
         flex-direction: column;
         align-items: center;
         gap: 30px;
 
+
+    } */
+
+    footer nav ul li {
+        display: block;
+        margin-top: 5%;
     }
+
+
 
     footer nav ul li a {
         font-size: 20px;
+        text-decoration: none;
+
     }
 
     nav .social {
@@ -379,6 +399,7 @@ footer nav ul li a {
 @media screen and (min-width:601px) and (max-width:1024px) {
     .article-side {
         width: 50%;
+        padding-left: 30px;
     }
 
     .img-side {
@@ -398,10 +419,12 @@ footer nav ul li a {
     .upcoming-info {
 
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         background-color: #fff;
         padding: 0;
 
+        align-items: center
     }
 
     .button {
@@ -409,10 +432,11 @@ footer nav ul li a {
     }
 
     .upcoming-info a {
-        width: 300px;
-        height: 40px;
+        /* width: 300px;
+        height: 40px; */
+        padding: 10px 25px;
         border: 1px solid #ddd;
-        font-size: 23px;
+        font-size: 20px;
 
     }
 
@@ -441,6 +465,11 @@ footer nav ul li a {
 
     }
 
+    footer nav ul li {
+        margin-right: 5%;
+        line-height: 3.5em;
+    }
+
     footer nav ul li a {
         font-size: 20px;
     }
@@ -453,17 +482,7 @@ footer nav ul li a {
         gap: 30px;
     } */
 
-    .hide {
-        display: none;
-    }
 
-    .btn2 {
-        display: none;
-    }
-
-    .btn1:focus-visible+.hide {
-        display: grid;
-    }
 
 
 
