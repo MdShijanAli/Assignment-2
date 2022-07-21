@@ -260,7 +260,7 @@ footer nav ul li a {
 }
 
 
-/* button area */
+/* button area
 .btn {
     margin: auto;
     display: none;
@@ -271,13 +271,16 @@ footer nav ul li a {
     text-decoration: none;
 
 
-}
+} */
 
 .btn1 {
     background-color: #DD0000;
     padding: 15px 40px;
     color: #fff;
     border-radius: 5px;
+    display: none;
+
+
 }
 
 
@@ -482,11 +485,35 @@ footer nav ul li a {
         gap: 30px;
     } */
 
-    .btn {
+    /* .btn {
         display: flex;
         margin-top: 50px;
 
+    } */
+
+
+    .hidden {
+        display: none;
     }
+
+    .btn1 {
+
+        display: block;
+        margin: auto;
+
+    }
+
+    .view-more:checked~.hidden {
+        display: block;
+    }
+
+    .view-more,
+    .view-more:checked~label {
+        display: none;
+    }
+
+
+
 
 
 
@@ -527,4 +554,11 @@ footer nav ul li a {
 
     }
 
+}
+
+
+
+
+input {
+    display: none;
 }
